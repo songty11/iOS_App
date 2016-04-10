@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		807207771C700C1000A1D60E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807207761C700C1000A1D60E /* AppDelegate.swift */; };
+		807207791C700C1000A1D60E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807207781C700C1000A1D60E /* ViewController.swift */; };
+		8072077C1C700C1000A1D60E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8072077A1C700C1000A1D60E /* Main.storyboard */; };
+		8072077E1C700C1000A1D60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8072077D1C700C1000A1D60E /* Assets.xcassets */; };
+		807207811C700C1000A1D60E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8072077F1C700C1000A1D60E /* LaunchScreen.storyboard */; };
+		8072078C1C700C1000A1D60E /* Fun_And_GamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072078B1C700C1000A1D60E /* Fun_And_GamesTests.swift */; };
+		807207991C710F5F00A1D60E /* WinLineUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807207981C710F5F00A1D60E /* WinLineUIView.swift */; };
+		8072079B1C718E8200A1D60E /* Drag.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8072079A1C718E8200A1D60E /* Drag.mp3 */; };
+		8072079D1C7191E400A1D60E /* Place.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8072079C1C7191E400A1D60E /* Place.mp3 */; };
+		807207A01C7195FB00A1D60E /* Buzzer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8072079F1C7195FB00A1D60E /* Buzzer.mp3 */; };
+		807207A21C7197FD00A1D60E /* Celebrate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 807207A11C7197FD00A1D60E /* Celebrate.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		807207881C700C1000A1D60E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8072076B1C700C1000A1D60E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 807207721C700C1000A1D60E;
+			remoteInfo = "Fun And Games";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		807207731C700C1000A1D60E /* Fun And Games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fun And Games.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		807207761C700C1000A1D60E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		807207781C700C1000A1D60E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8072077B1C700C1000A1D60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8072077D1C700C1000A1D60E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		807207801C700C1000A1D60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		807207821C700C1000A1D60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807207871C700C1000A1D60E /* Fun And GamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fun And GamesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8072078B1C700C1000A1D60E /* Fun_And_GamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fun_And_GamesTests.swift; sourceTree = "<group>"; };
+		8072078D1C700C1000A1D60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807207981C710F5F00A1D60E /* WinLineUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinLineUIView.swift; sourceTree = "<group>"; };
+		8072079A1C718E8200A1D60E /* Drag.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Drag.mp3; sourceTree = "<group>"; };
+		8072079C1C7191E400A1D60E /* Place.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Place.mp3; sourceTree = "<group>"; };
+		8072079F1C7195FB00A1D60E /* Buzzer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Buzzer.mp3; sourceTree = "<group>"; };
+		807207A11C7197FD00A1D60E /* Celebrate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Celebrate.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		807207701C700C1000A1D60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807207841C700C1000A1D60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8072076A1C700C1000A1D60E = {
+			isa = PBXGroup;
+			children = (
+				807207751C700C1000A1D60E /* Fun And Games */,
+				8072078A1C700C1000A1D60E /* Fun And GamesTests */,
+				807207741C700C1000A1D60E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		807207741C700C1000A1D60E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				807207731C700C1000A1D60E /* Fun And Games.app */,
+				807207871C700C1000A1D60E /* Fun And GamesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		807207751C700C1000A1D60E /* Fun And Games */ = {
+			isa = PBXGroup;
+			children = (
+				8072079C1C7191E400A1D60E /* Place.mp3 */,
+				8072079F1C7195FB00A1D60E /* Buzzer.mp3 */,
+				8072079A1C718E8200A1D60E /* Drag.mp3 */,
+				807207A11C7197FD00A1D60E /* Celebrate.mp3 */,
+				807207761C700C1000A1D60E /* AppDelegate.swift */,
+				807207781C700C1000A1D60E /* ViewController.swift */,
+				807207981C710F5F00A1D60E /* WinLineUIView.swift */,
+				8072077A1C700C1000A1D60E /* Main.storyboard */,
+				8072077D1C700C1000A1D60E /* Assets.xcassets */,
+				8072077F1C700C1000A1D60E /* LaunchScreen.storyboard */,
+				807207821C700C1000A1D60E /* Info.plist */,
+			);
+			path = "Fun And Games";
+			sourceTree = "<group>";
+		};
+		8072078A1C700C1000A1D60E /* Fun And GamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				8072078B1C700C1000A1D60E /* Fun_And_GamesTests.swift */,
+				8072078D1C700C1000A1D60E /* Info.plist */,
+			);
+			path = "Fun And GamesTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		807207721C700C1000A1D60E /* Fun And Games */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807207901C700C1000A1D60E /* Build configuration list for PBXNativeTarget "Fun And Games" */;
+			buildPhases = (
+				8072076F1C700C1000A1D60E /* Sources */,
+				807207701C700C1000A1D60E /* Frameworks */,
+				807207711C700C1000A1D60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fun And Games";
+			productName = "Fun And Games";
+			productReference = 807207731C700C1000A1D60E /* Fun And Games.app */;
+			productType = "com.apple.product-type.application";
+		};
+		807207861C700C1000A1D60E /* Fun And GamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807207931C700C1000A1D60E /* Build configuration list for PBXNativeTarget "Fun And GamesTests" */;
+			buildPhases = (
+				807207831C700C1000A1D60E /* Sources */,
+				807207841C700C1000A1D60E /* Frameworks */,
+				807207851C700C1000A1D60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				807207891C700C1000A1D60E /* PBXTargetDependency */,
+			);
+			name = "Fun And GamesTests";
+			productName = "Fun And GamesTests";
+			productReference = 807207871C700C1000A1D60E /* Fun And GamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8072076B1C700C1000A1D60E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tianyu Song";
+				TargetAttributes = {
+					807207721C700C1000A1D60E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3H8XVL8ULU;
+					};
+					807207861C700C1000A1D60E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3H8XVL8ULU;
+						TestTargetID = 807207721C700C1000A1D60E;
+					};
+				};
+			};
+			buildConfigurationList = 8072076E1C700C1000A1D60E /* Build configuration list for PBXProject "Fun And Games" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8072076A1C700C1000A1D60E;
+			productRefGroup = 807207741C700C1000A1D60E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				807207721C700C1000A1D60E /* Fun And Games */,
+				807207861C700C1000A1D60E /* Fun And GamesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		807207711C700C1000A1D60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8072079B1C718E8200A1D60E /* Drag.mp3 in Resources */,
+				807207811C700C1000A1D60E /* LaunchScreen.storyboard in Resources */,
+				807207A01C7195FB00A1D60E /* Buzzer.mp3 in Resources */,
+				8072077E1C700C1000A1D60E /* Assets.xcassets in Resources */,
+				8072077C1C700C1000A1D60E /* Main.storyboard in Resources */,
+				8072079D1C7191E400A1D60E /* Place.mp3 in Resources */,
+				807207A21C7197FD00A1D60E /* Celebrate.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807207851C700C1000A1D60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8072076F1C700C1000A1D60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807207991C710F5F00A1D60E /* WinLineUIView.swift in Sources */,
+				807207791C700C1000A1D60E /* ViewController.swift in Sources */,
+				807207771C700C1000A1D60E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807207831C700C1000A1D60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8072078C1C700C1000A1D60E /* Fun_And_GamesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		807207891C700C1000A1D60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 807207721C700C1000A1D60E /* Fun And Games */;
+			targetProxy = 807207881C700C1000A1D60E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8072077A1C700C1000A1D60E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8072077B1C700C1000A1D60E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8072077F1C700C1000A1D60E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				807207801C700C1000A1D60E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8072078E1C700C1000A1D60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8072078F1C700C1000A1D60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		807207911C700C1000A1D60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fun And Games/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stian.Fun-And-Games";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		807207921C700C1000A1D60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fun And Games/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stian.Fun-And-Games";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		807207941C700C1000A1D60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fun And GamesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stian.Fun-And-GamesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fun And Games.app/Fun And Games";
+			};
+			name = Debug;
+		};
+		807207951C700C1000A1D60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fun And GamesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stian.Fun-And-GamesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fun And Games.app/Fun And Games";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8072076E1C700C1000A1D60E /* Build configuration list for PBXProject "Fun And Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8072078E1C700C1000A1D60E /* Debug */,
+				8072078F1C700C1000A1D60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807207901C700C1000A1D60E /* Build configuration list for PBXNativeTarget "Fun And Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807207911C700C1000A1D60E /* Debug */,
+				807207921C700C1000A1D60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807207931C700C1000A1D60E /* Build configuration list for PBXNativeTarget "Fun And GamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807207941C700C1000A1D60E /* Debug */,
+				807207951C700C1000A1D60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8072076B1C700C1000A1D60E /* Project object */;
+}

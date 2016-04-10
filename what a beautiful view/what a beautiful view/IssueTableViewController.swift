@@ -102,4 +102,7 @@ class IssueTableViewController: DataTableViewController{
             }
         }
     }
+    override func viewWillAppear(animated: Bool) {
+        loadIssues()
+    }
 }

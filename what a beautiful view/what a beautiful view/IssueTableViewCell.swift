@@ -19,7 +19,7 @@ class IssueTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-     //       self.Night()
+            self.Night()
         // Initialization code
     }
     func Night()

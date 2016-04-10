@@ -19,7 +19,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" placeholderIntrinsicWidth="600" placeholderIntrinsicHeight="89.5" tableViewCell="GGw-w2-VRh" id="3dF-kf-pp7">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="79.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="80"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="username" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="diQ-Aq-tL4">
@@ -211,7 +211,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" placeholderIntrinsicWidth="600" placeholderIntrinsicHeight="89.5" tableViewCell="Fkg-YS-ILf" id="1sN-vF-THN">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="79.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="80"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="username" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qtu-w1-N49">
@@ -346,7 +346,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" placeholderIntrinsicWidth="600" placeholderIntrinsicHeight="89.5" tableViewCell="Cio-1u-Grc" id="CEf-n3-xox">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Number of Posts: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRh-9G-0t7">
@@ -443,6 +443,6 @@
         <image name="open" width="38" height="38"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="746-us-zPT"/>
+        <segue reference="VTw-SC-0xT"/>
     </inferredMetricsTieBreakers>
 </document>
